@@ -3,11 +3,11 @@
 Canonical version of the public sub-processor list. The HTML version lives at
 [tells.voiddo.com/legal/sub-processors](https://tells.voiddo.com/legal/sub-processors).
 
-Updated: 2026-05-02 · Version 1.0
+Updated: 2026-05-08 · Version 1.1
 
 | Sub-processor | Function | Region | Sees content? | Terms |
 |---|---|---|---|---|
-| Google (Gemini API · Google Cloud) | AI analysis processing | US / EU | yes | https://ai.google.dev/gemini-api/terms · https://cloud.google.com/terms/data-processing-addendum |
+| vøiddo hosted analysis infrastructure | tells analysis processing | US / EU | yes | Operated by vøiddo |
 | Paddle | Payment processing (Merchant of Record) | UK / EU / US | no | https://www.paddle.com/legal/privacy · https://www.paddle.com/legal/dpa |
 | Plausible Analytics | Page-view-only analytics on marketing site | EU (Germany) | no | https://plausible.io/data-policy · https://plausible.io/dpa |
 | vøiddo-mailer (self-hosted SMTP) | Transactional + lifecycle email | EU (Israel · Eilat) | no | Operated by vøiddo |
