@@ -1,6 +1,6 @@
 # tells-encryption-spec
 
-> Public specification of the at-rest encryption used by [tells](https://tells.voiddo.com) — a forensic AI for what people don't say.
+> Public specification of the at-rest encryption used by [tells](https://tells.voiddo.com) — text-first analysis for what people leave unsaid.
 
 This repository documents — exactly — the cryptographic primitives that
 protect tells user data at rest. It is published so privacy-conscious users,
@@ -21,7 +21,7 @@ You can audit what we promise; we keep what we built. This repo is one of the
 three public privacy components:
 
 - [voidd0/tells-encryption-spec](https://github.com/voidd0/tells-encryption-spec) — this repo.
-- [voidd0/tells-prompt-templates](https://github.com/voidd0/tells-prompt-templates) — every system prompt that ships to Gemini.
+- [voidd0/tells-prompt-templates](https://github.com/voidd0/tells-prompt-templates) — the public prompt contracts behind tells analysis.
 - [voidd0/tells-cultural-framing](https://github.com/voidd0/tells-cultural-framing) — per-language framing layer.
 
 ## Specification — version 1.0 (effective 2 May 2026)
@@ -168,8 +168,8 @@ This spec defends against the eight threats enumerated in the
 **not** defend against:
 
 - Government-level adversaries (NSA-class actors).
-- Compromise of Google Gemini at provider level.
-- Side-channel attacks on Gemini API response timing.
+- Compromise of the upstream model provider at provider level.
+- Side-channel attacks on model-provider response timing.
 - Hardware-level extraction of the master key from the VPS.
 
 If your threat model includes any of the above, tells is not the right tool.
